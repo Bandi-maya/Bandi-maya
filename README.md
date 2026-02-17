@@ -1,49 +1,87 @@
-<img align="center" alt="Banner" src="https://user-images.githubusercontent.com/22107794/139580686-887df369-edb8-4bc8-b607-4fbf6d7e4866.gif"/>
+<!-- Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=G.%20Pavan%20Manikanta%20Bandi&fontSize=35&fontColor=ffffff&animation=fadeIn" />
 
-<h1 align="left">
-  <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="28" />
-  Hi, I'm <strong>G. Pavan Manikanta Bandi</strong>
+<h1 align="center">
+  Hi 👋 I'm Pavan
 </h1>
 
-<h3>Frontend Developer | React ⚛️ | Python 🐍</h3>
-
-<div align="left">
-  <img align="right" width="350" src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" />
-
-  <p>
-    I'm a passionate developer who enjoys building clean, responsive, and user-friendly web applications.
-    I focus on creating smooth frontend experiences with React and solving real-world problems using Python.
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/🌍_India-1e1e2e?style=for-the-badge" />
-    <a href="mailto:pavanmanikantabandi9951672843@gmail.com">
-      <img src="https://img.shields.io/badge/📧_pavanmanikantabandi9951672843@gmail.com-1e1e2e?style=for-the-badge" />
-    </a>
-    <img src="https://img.shields.io/badge/🤝_Open_to_Collaborations-1e1e2e?style=for-the-badge" />
-  </p>
-
-<h3>🌐 Connect With Me</h3>
-  
-<p align="left">
-
-  <a href="https://github.com/Bandi-maya">
-    <img src="https://img.shields.io/badge/GitHub-1A1A1A?style=for-the-badge&logoColor=white" />
-  </a>
-
-</p>
-
-  <img src="https://komarev.com/ghpvc/?username=Bandi-maya&style=flat-square&color=blue" alt="Profile Visit"/>
-</div>
-
-<br clear="all" />
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=React+Developer;Python+Programmer;UI%2FUX+Enthusiast;Building+Clean+Modern+Web+Apps" />
+</h3>
 
 ---
 
-## 🛠️ Skills
+## 🧑‍💻 About Me
 
-<p align="center">
-<table>
+<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+
+- 🎯 Focused on building **modern, smooth UI experiences**
+- ⚛️ React Frontend Developer  
+- 🐍 Python Backend Enthusiast  
+- 🚀 Passionate about performance & clean design  
+- 🤝 Open to collaborations  
+
+📧 **Email:** pavanmanikantabandi9951672843@gmail.com  
+🌍 **Location:** India  
+
+---
+
+## 🛠 Tech Stack
+
+<div align="center">
+
+### 💻 Languages
+<img src="https://skillicons.dev/icons?i=javascript,python&theme=dark" />
+
+### ⚛️ Frameworks
+<img src="https://skillicons.dev/icons?i=react&theme=dark" />
+
+### 🧰 Tools
+<img src="https://skillicons.dev/icons?i=git,vscode&theme=dark" />
+
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Bandi-maya&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15" />
+
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=Bandi-maya&theme=tokyonight&hide_border=true&border_radius=15" />
+
+</div>
+
+---
+
+## 🧠 Top Languages
+
+<div align="center">
+
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bandi-maya&layout=compact&theme=tokyonight&hide_border=true&border_radius=15" />
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/Bandi-maya">
+  <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="mailto:pavanmanikantabandi9951672843@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=120&section=footer" /><table>
 <tr>
 <td width="50%" align="center">
 <h3>💻 Programming Languages</h3>
