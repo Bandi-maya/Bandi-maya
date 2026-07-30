@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Pavan Manikanta Bandi — Full-Stack Product Engineer</title>
+  <desc id="desc">Animated dark interface featuring Pavan's name, engineering focus, technology stack, and a stylized code panel.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816" />
+      <stop offset="48%" stop-color="#0b1124" />
+      <stop offset="100%" stop-color="#07111f" />
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#818cf8;#a855f7;#22d3ee" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1;#a855f7;#22d3ee;#6366f1" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#a855f7">
+        <animate attributeName="stop-color" values="#a855f7;#22d3ee;#818cf8;#a855f7" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="orbCyan">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orbViolet">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.52" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#94a3b8" stroke-opacity="0.06" stroke-width="1" />
+    </pattern>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="34" />
+    </filter>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blurred" />
+      <feMerge>
+        <feMergeNode in="blurred" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="panelClip">
+      <rect x="744" y="66" width="382" height="286" rx="26" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .label { font: 600 12px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 2.4px; }
+    .name { font: 800 47px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: -1.2px; }
+    .role { font: 650 22px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .body { font: 400 15px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .chip { font: 650 12px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .35px; }
+    .mono { font: 500 13px "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    .float-a { animation: floatA 7s ease-in-out infinite; transform-origin: center; }
+    .float-b { animation: floatB 9s ease-in-out infinite; transform-origin: center; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+    .scan { animation: scan 4.8s linear infinite; }
+    .blink { animation: blink 1.1s steps(2, end) infinite; }
+    .line-1 { animation: shimmer 3.8s ease-in-out infinite; }
+    .line-2 { animation: shimmer 3.8s ease-in-out .45s infinite; }
+    .line-3 { animation: shimmer 3.8s ease-in-out .9s infinite; }
+    @keyframes floatA { 0%,100% { transform: translate(0,0); } 50% { transform: translate(14px,-12px); } }
+    @keyframes floatB { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-18px,14px); } }
+    @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes scan { from { transform: translateY(-35px); opacity: 0; } 15%,85% { opacity: .7; } to { transform: translateY(325px); opacity: 0; } }
+    @keyframes blink { 0%,45% { opacity: 1; } 46%,100% { opacity: 0; } }
+    @keyframes shimmer { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }
+  </style>
+
+  <rect width="1200" height="420" rx="30" fill="url(#background)" />
+  <rect x="1" y="1" width="1198" height="418" rx="29" fill="none" stroke="#94a3b8" stroke-opacity="0.14" />
+  <rect width="1200" height="420" rx="30" fill="url(#grid)" />
+
+  <g filter="url(#blur)" opacity="0.9">
+    <circle class="float-a" cx="167" cy="83" r="150" fill="url(#orbCyan)" />
+    <circle class="float-b" cx="1050" cy="346" r="182" fill="url(#orbViolet)" />
+  </g>
+
+  <g transform="translate(74 67)">
+    <g>
+      <rect width="268" height="34" rx="17" fill="#0f172a" fill-opacity="0.84" stroke="#22d3ee" stroke-opacity="0.35" />
+      <circle class="pulse" cx="18" cy="17" r="5" fill="#34d399" filter="url(#glow)" />
+      <text x="33" y="21" class="label" fill="#cbd5e1">OPEN TO BUILDING GREAT PRODUCTS</text>
+    </g>
+
+    <text x="0" y="91" class="name" fill="#f8fafc">PAVAN MANIKANTA</text>
+    <text x="0" y="143" class="name" fill="url(#accent)" filter="url(#glow)">BANDI</text>
+    <text x="1" y="184" class="role" fill="#dbeafe">Full-Stack Product Engineer</text>
+
+    <text x="1" y="219" class="body" fill="#94a3b8">Designing responsive interfaces, secure APIs, and data-backed products</text>
+    <text x="1" y="242" class="body" fill="#94a3b8">with a sharp focus on architecture, usability, and maintainability.</text>
+
+    <g transform="translate(0 273)">
+      <rect width="157" height="38" rx="12" fill="#0f172a" fill-opacity="0.82" stroke="#22d3ee" stroke-opacity="0.28" />
+      <text x="79" y="24" text-anchor="middle" class="chip" fill="#a5f3fc">REACT · NEXT.JS</text>
+
+      <rect x="169" width="156" height="38" rx="12" fill="#0f172a" fill-opacity="0.82" stroke="#818cf8" stroke-opacity="0.30" />
+      <text x="247" y="24" text-anchor="middle" class="chip" fill="#c7d2fe">PYTHON · FLASK</text>
+
+      <rect x="337" width="188" height="38" rx="12" fill="#0f172a" fill-opacity="0.82" stroke="#a855f7" stroke-opacity="0.30" />
+      <text x="431" y="24" text-anchor="middle" class="chip" fill="#e9d5ff">POSTGRES · MONGODB</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="730" y="52" width="410" height="314" rx="32" fill="#020617" fill-opacity="0.72" stroke="url(#accent)" stroke-opacity="0.60" stroke-width="1.5" />
+    <rect x="744" y="66" width="382" height="286" rx="26" fill="#08101f" fill-opacity="0.94" stroke="#cbd5e1" stroke-opacity="0.10" />
+
+    <g clip-path="url(#panelClip)">
+      <rect class="scan" x="744" y="66" width="382" height="2" fill="url(#accent)" opacity="0.7" filter="url(#glow)" />
+    </g>
+
+    <circle cx="774" cy="91" r="5" fill="#fb7185" />
+    <circle cx="792" cy="91" r="5" fill="#fbbf24" />
+    <circle cx="810" cy="91" r="5" fill="#34d399" />
+    <text x="935" y="96" text-anchor="middle" class="label" fill="#64748b">PRODUCT-ENGINEERING.TS</text>
+
+    <g class="mono">
+      <text x="773" y="137" fill="#64748b">01</text>
+      <text x="808" y="137" fill="#c084fc">const</text>
+      <text x="854" y="137" fill="#f8fafc">engineer</text>
+      <text x="921" y="137" fill="#94a3b8">=</text>
+      <text x="939" y="137" fill="#fbbf24">{</text>
+
+      <text x="773" y="165" fill="#64748b">02</text>
+      <text x="826" y="165" fill="#7dd3fc">frontend</text>
+      <text x="891" y="165" fill="#94a3b8">:</text>
+      <text x="906" y="165" fill="#86efac">'React / Next.js'</text>
+      <text x="1064" y="165" fill="#94a3b8">,</text>
+
+      <text x="773" y="193" fill="#64748b">03</text>
+      <text x="826" y="193" fill="#7dd3fc">backend</text>
+      <text x="883" y="193" fill="#94a3b8">:</text>
+      <text x="898" y="193" fill="#86efac">'Python / Flask'</text>
+      <text x="1047" y="193" fill="#94a3b8">,</text>
+
+      <text x="773" y="221" fill="#64748b">04</text>
+      <text x="826" y="221" fill="#7dd3fc">database</text>
+      <text x="891" y="221" fill="#94a3b8">:</text>
+      <text x="906" y="221" fill="#86efac">'SQL + NoSQL'</text>
+      <text x="1037" y="221" fill="#94a3b8">,</text>
+
+      <text x="773" y="249" fill="#64748b">05</text>
+      <text x="826" y="249" fill="#7dd3fc">principles</text>
+      <text x="906" y="249" fill="#94a3b8">:</text>
+      <text x="921" y="249" fill="#fbbf24">[</text>
+
+      <text x="773" y="277" fill="#64748b">06</text>
+      <text x="844" y="277" fill="#86efac">'clarity'</text>
+      <text x="922" y="277" fill="#94a3b8">,</text>
+      <text x="940" y="277" fill="#86efac">'quality'</text>
+      <text x="1018" y="277" fill="#94a3b8">,</text>
+
+      <text x="773" y="305" fill="#64748b">07</text>
+      <text x="844" y="305" fill="#86efac">'ownership'</text>
+      <text x="947" y="305" fill="#fbbf24">]</text>
+
+      <text x="773" y="333" fill="#64748b">08</text>
+      <text x="808" y="333" fill="#fbbf24">}</text>
+      <rect class="blink" x="824" y="319" width="8" height="17" rx="1" fill="#22d3ee" />
+    </g>
+
+    <g opacity="0.7">
+      <circle class="line-1" cx="1120" cy="133" r="3" fill="#22d3ee" />
+      <circle class="line-2" cx="1120" cy="161" r="3" fill="#818cf8" />
+      <circle class="line-3" cx="1120" cy="189" r="3" fill="#a855f7" />
+    </g>
+  </g>
+
+  <path d="M48 384H1152" stroke="url(#accent)" stroke-opacity="0.45" stroke-width="1" stroke-dasharray="2 10">
+    <animate attributeName="stroke-dashoffset" values="0;-120" dur="8s" repeatCount="indefinite" />
+  </path>
+</svg>
